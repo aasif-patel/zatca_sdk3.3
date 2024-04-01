@@ -8,7 +8,7 @@ export PATH=$PATH:$FATOORA_HOME/Apps/
 
 
 touch ~/.zshrc
-touch ~/.bash-profile
+touch ~/.profile
 
 
 
@@ -28,7 +28,7 @@ echo "export SDK_CONFIG=$SDK_CONFIG" >> ~/.zshrc
 
 
 
-source ~/.bash-profile
+source ~/.profile
 source ~/.zshrc
 
 cd Configuration
